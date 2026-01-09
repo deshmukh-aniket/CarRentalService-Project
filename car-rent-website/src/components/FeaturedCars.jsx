@@ -44,7 +44,7 @@ const FeaturedCars = () => {
               <h5 className="fw-bold mt-2">{car.name}</h5>
 
             <div className="d-flex align-items-center gap-1 mb-2 text-warning">
-              <Star size={20}/> {car.rating}
+              <Star size={20} fill='currentColor'/> {car.rating}
             </div>
             </div>
 
